@@ -1,0 +1,367 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>Honeymoon</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+
+  <!--W3 SCHOOL-->
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <!-- Bootstrap CSS v5.2.1 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+
+
+<link rel="stylesheet" href="fontawesome-free-6.2.1-web/css/all.css">
+
+</head>
+<style>
+  .mySlides {display:none;}
+
+
+  div .box{
+  background-color: lightgrey;
+  width: 300px;
+  border: 15px solid green;
+  padding: 50px;
+  margin: 20px;
+}
+
+navbar {
+ color: black;
+}
+
+</style>
+<body>
+  <header>
+    <!-- place navbar here -->
+  </header>
+  <main>
+    
+    <nav class="navbar navbar-expand-lg navbar-light bg-light navbar navbar-dark bg-dark" style="background-color: rgb(51, 16, 16);">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"></a>
+          <img src="catering logo.jpg" width="50px" height="50px"  alt="">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              </li>
+                <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="catering.html">Catering </a>
+              </li>
+               </li>
+                <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="menu.html">Menu</a>
+              </li>
+
+               </li>
+               <!--
+                <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Honeymoon tour </a>
+              </li>
+              -->
+               </li>
+                <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="contact.html">Contact </a>
+              </li>
+              
+               </li>
+               <!--
+                <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Event </a>
+              </li>
+              -->
+              <!--
+              <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+              </li>
+             -->
+              
+               
+              <!--
+              <li class="nav-item">
+                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Blog</a>
+              </li>
+              -->
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+
+<!--
+              <button class="btn btn-outline-danger" type="button"><i class="fa-solid fa-cart-shopping"></i></button>
+              -->
+            </form>
+          </div>
+        </div>
+      </nav>
+
+      
+<!-- slider carousel -->
+
+
+  <main class="">
+  
+    <div class="w3-container">
+  
+    </div>
+    
+    <div class="w3-content w3-section" >
+      <img class="mySlides w3-animate-top" src="services img.jpg" alt=" " width="100%" height="500px">
+      <img class="mySlides w3-animate-bottom" src="servies.png" width="100%" height="500px">
+      <img class="mySlides w3-animate-top" src="event-management-company.png" style="width:100%" height="500px">
+      <img class="mySlides w3-animate-bottom" src="Catering-Staff-Catering-Services.jpeg" width="100%" height="500px">
+    </div>
+    
+    <script>
+    var myIndex = 0;
+    carousel();
+    
+    function carousel() {
+      var i;
+      var x = document.getElementsByClassName("mySlides");
+      for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";  
+      }
+      myIndex++;
+      if (myIndex > x.length) {myIndex = 1}    
+      x[myIndex-1].style.display = "block";  
+      setTimeout(carousel, 2500);    
+    }
+    </script>
+    <br>
+
+
+   <center> <h1>our services</h1></center>
+
+    <!-- marketing user -->
+
+    <div class="container marketing">
+
+        <!-- Three columns of text below the carousel -->
+      <div class="row">
+      <div class="col-lg-4">
+         <img src="tea logo.jpg" alt="" height="300px" width="300px" >
+
+         <h3>Good Rest</h3>
+         <pre>  Lorem ipsum dolor sit amet,
+ consectetur adipiscing elit, 
+ sed do eiusmod tempor incididunt ut labore et
+ dolore magna aliqua</pre>
+          </div>
+    
+
+    
+  
+          
+          <div class="col-lg-4">
+            <div class="box" style="background-color:rgb(0, 0, 0);">
+    <h6  style="color: white; font-style:italic; font-family: handwrite;"> Best One </h6>
+    <h3 style="color:white;">Our Services</h3>
+   <pre style="color: white;"> It is a long established fact that a reader
+will be distracted by the readable
+content of apage when looking at its layout.
+The point of using Lorem Ipsum is that it has 
+a more-or-less normal distribution of letters,
+as opposed to using 'Content here, content here',
+making it look like readable English.
+Many desktop publishing packages and web page
+editors now use Lorem Ipsum as their default model text,
+and a search for 'lorem ipsum' will uncover many web sites
+still in their infancy.</pre>
+<a href="#" class="button"> Read More </a>
+
+</div>
+  </div>
+  
+
+
+
+  
+<div class="col-lg-4">
+<img src="event caterong logo.jpg" alt="" height="300px" width="300px">
+  <h3>Special Event Catering</h3>
+  <pre>  Lorem ipsum dolor sit amet,
+consectetur adipiscing elit,
+sed do eiusmod tempor incididunt ut
+labore et dolore magna aliqua.</pre>
+    </div>
+    
+</div>
+</div>
+
+ 
+    
+
+        
+  
+
+<hr>
+<center> <h1>Food Services</h1></center>
+
+
+<div class="container marketing">
+
+    <!-- Three columns of text below the carousel -->
+    <div class="row">
+      <div class="col-lg-4">
+       <img src="catering man boy.jpg" alt=""  width="400px" height="300px">
+        <h2>Waiter Service</h2>
+        <p>Some representative placeholder content for the three columns of text below the carousel. This is the first column.</p>
+        <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
+      </div><!-- /.col-lg-4 -->
+      <div class="col-lg-4">
+        <img src="catering mangemant 1.jpg" alt=""  width="400px" height="300px">
+        <h2> Buffet Service</h2>
+        <p>Another exciting bit of representative placeholder content. This time, we've moved on to the second column.</p>
+        <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
+      </div><!-- /.col-lg-4 -->
+      <div class="col-lg-4">
+        <img src="catering-main.jpg" alt=""  width="400px" height="300px">
+        <h2>Table service</h2>
+        <p>And lastly this, the third column of representative placeholder content.</p>
+        <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
+      </div><!-- /.col-lg-4 -->
+    </div><!-- /.row -->
+
+    
+    <hr>
+    <center><h1>Transport Services</h1></center>
+
+    <div class="container marketing">
+    
+        <!-- Three columns of text below the carousel -->
+        <div class="row">
+          <div class="col-lg-4">
+           <img src="transport bus.jpg" alt=""  width="400px" height="300px">
+            <h2>Bus Service </h2>
+            <p>Some representative placeholder content for the three columns of text below the carousel. This is the first column.</p>
+            <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
+          </div><!-- /.col-lg-4 -->
+          <div class="col-lg-4">
+            <img src="transport logo.jpg" alt=""  width="400px" height="300px">
+            <h2>Car Service</h2>
+            <p>Another exciting bit of representative placeholder content. This time, we've moved on to the second column.</p>
+            <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
+          </div><!-- /.col-lg-4 -->
+          <div class="col-lg-4">
+            <img src="transport management.jpg" alt=""  width="400px" height="300px">
+            <h2>luxury Service</h2>
+            <p>And lastly this, the third column of representative placeholder content.</p>
+            <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
+          </div><!-- /.col-lg-4 -->
+        </div><!-- /.row -->
+    
+    
+    
+    <hr class="featurette-divider">
+
+
+
+
+
+
+
+
+
+
+
+</main>
+<div class="b-example-divider"></div>
+
+
+<div class="container">
+  <footer class="py-5">
+    <div class="row">
+      <div class="col-6 col-md-2 mb-3">
+        <h5>Section</h5>
+        <ul class="nav flex-column">
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Features</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pricing</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
+        </ul>
+      </div>
+
+      <div class="col-6 col-md-2 mb-3">
+        <h5>Section</h5>
+        <ul class="nav flex-column">
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Features</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pricing</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
+        </ul>
+      </div>
+
+      <div class="col-6 col-md-2 mb-3">
+        <h5>Section</h5>
+        <ul class="nav flex-column">
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Features</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pricing</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
+        </ul>
+      </div>
+
+      <div class="col-md-5 offset-md-1 mb-3">
+        <form>
+          <div class="mb-3 mt-3">
+          <h5>Subscribe to our newsletter</h5>
+          <p>Monthly digest of what's new and exciting from us.</p>
+          <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+            <label for="newsletter1" class="visually-hidden">Email address</label>
+            <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
+          </div>
+
+            
+            <div class="mb-3 mt-3">
+
+          
+            <label for="newsletter1" class="visually-hidden">Contact Number</label>
+            <input id="newsletter1" type="text" class="form-control" placeholder="Contact Number">
+            <button class="btn btn-primary" type="button">Subscribe</button>
+          </div>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
+      <p>&copy; 2022 Company, Inc. All rights reserved.</p>
+      <ul class="list-unstyled d-flex">
+        <li class="ms-3"><a class="link-dark" href="#"><i class="fa-brands fa-facebook"></i></li>
+        <li class="ms-3"><a class="link-dark" href="#"><i class="fa-brands fa-youtube"></i></li>
+        <li class="ms-3"><a class="link-dark" href="#"><i class="fa-brands fa-instagram"></i></li>
+      </ul>
+    </div>
+  </footer>
+</div>
+
+
+
+  <!-- type js -->
+
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+
+  <!-- Bootstrap JavaScript Libraries -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
+  </script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+    integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
+  </script>
+</body>
+
+</html>
